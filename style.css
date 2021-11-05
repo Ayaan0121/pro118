@@ -1,0 +1,66 @@
+#heading{
+    font-weight: bold;
+    letter-spacing:-2px;
+    font-family: 'Fruktur', cursive;
+    background-color:royalblue ;
+    margin:0px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    color:white;
+}
+body{
+    background-color: yellow;
+}
+
+#show_sketch{
+    background-color: red;
+    float: right;
+    margin-right: 10px;
+  
+    color: black;
+}
+
+#show_sketch:hover{
+    background-color: Turquoise;
+}
+#score{
+    float: left;
+    font-weight: bolder;
+    letter-spacing:-2px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+#timer{
+    float: right;
+    margin-right: 50px;
+    font-weight: bolder;
+    letter-spacing:-2px;
+    font-size: 30px;
+}
+.result{
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing:-2px;
+}
+#sketchDrawn{
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing:-2px;
+    color: red;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
